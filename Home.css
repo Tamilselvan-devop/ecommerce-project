@@ -1,0 +1,44 @@
+.home {
+  text-align: center;          /* center everything */
+  padding: 50px 20px;          /* space around content */
+  background: linear-gradient(135deg, #f0f8ff, #e0e7ff); /* light gradient bg */
+  min-height: 100vh;           /* full screen height */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Category buttons */
+.category-cards {
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  align-items: center;
+  gap: 15px;                  /* space between buttons */
+}
+
+.category {
+  display: inline-block;
+  background-color: #007bff;  /* blue button */
+  color: rgb(196, 236, 19);
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+.category:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

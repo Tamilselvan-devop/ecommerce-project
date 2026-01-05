@@ -1,0 +1,17 @@
+.footer {
+  background-color : hsl(261, 89%, 56%);          /* dark background */
+  color: #fff;                     /* white text */
+  text-align: center;              /* center align text */
+  padding: 15px 0;                 /* vertical spacing */
+  font-size: 14px;                 /* small neat text */
+  position: fixed;                 /* footer stays at bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;                     /* full width */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* small top shadow */
+}
+
+.footer p {
+  margin: 0;                       /* remove default spacing */
+  letter-spacing: 0.5px;
+}
